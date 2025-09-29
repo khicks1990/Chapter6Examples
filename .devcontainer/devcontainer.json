@@ -4,12 +4,7 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "features": {
-        "ghcr.io/devcontainers/features/java:1": {
-            "version": "none",
-            "installMaven": "false",
-            "installGradle": "false"
-        },
+        "features": {
         "ghcr.io/devcontainers/features/desktop-lite:1": {
             "password": "vscode",
             "webPort": "6080",
